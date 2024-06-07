@@ -1,0 +1,21 @@
+<%- include('./layouts/header')%>
+<%- include('./layouts/navbar') %>
+
+   <div class="add-container">
+    <div class="add">
+        <p>Add Your Diary</p>
+        <a href="/express-diary/add">ADD</a>
+    </div>
+
+    <div class="diary">
+        <% data.forEach((diary) => {%>
+            <div class="diary-container">
+                <h3><%= diary.title %></h3>
+                <p><%= diary.date %></p>
+                <a href="<%= basePath %>/diary/<%= diary.id %>">Details</a>
+            </div>
+        <%}) %>
+       </div>
+   </div>
+   
+<%- include('./layouts/footer') %>

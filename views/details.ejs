@@ -1,0 +1,19 @@
+<%- include('./layouts/header')%>
+<%- include('./layouts/navbar') %>
+   
+   <div class="page-container">
+        <h1><%= data.title %></h1>
+        <p><%= data.date %></p>
+        <p class="diary-text"><%= data.description %></p>
+
+        <div class="settings">
+            <a href="<%= basePath %>/diary/edit/<%= data.id %>" class="edit">Edit</a>
+
+            <form action="<%= basePath %>/diary/delete/<%= data.id %>?_method=DELETE" method="POST">
+                <input type="hidden" name="_method" value="DELETE">
+                <input type="submit" value="Delete" class="delete">
+            </form>
+        </div>
+   </div>
+
+<%- include('./layouts/footer') %>

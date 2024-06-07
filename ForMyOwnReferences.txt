@@ -1,0 +1,10 @@
+Enhacement List:
+
+1. To create a separate page that displays the success message after a 
+successful post eiditing where it also shows a "Go-Back" (to the Diary page)
+button.
+
+
+
+
+Reference: https://www.youtube.com/watch?v=Hm-Ikp7s6zw&list=PL7R1GUIXZffbYBVgyFIfyrXKR2fR5A3oI&index=1 
