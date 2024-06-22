@@ -1,4 +1,4 @@
-#Technologies Used:
+## Technologies Used:
 - Node.js
 - Express.js
 - PostgreSQL
@@ -7,7 +7,7 @@
 - JavaScript
 
 
-Getting Started:
+## Getting Started:
 1. Clone the repository: git clone https://github.com/yourusername/express-diary.git
 2. Install dependencies: npm install
 3. Set up the database and configure environment variables.
